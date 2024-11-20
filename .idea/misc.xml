@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/post/pom.xml" />
         <option value="$PROJECT_DIR$/comment/pom.xml" />
+        <option value="$PROJECT_DIR$/server-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../server-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-code/service-registry/pom.xml" />
       </list>
     </option>
   </component>
