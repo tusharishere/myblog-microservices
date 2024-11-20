@@ -21,7 +21,7 @@ public class CommentService {
     }
 
     public Comment saveComment(Comment comment) {
-        Post post = restTemplate.getForObject("http://localhost:8081/api/v1/post/" + comment.getPostId(), Post.class);
+        Post post = restTemplate.getForObject("http://POST-SERVICE/api/v1/post/" + comment.getPostId(), Post.class);
         if (post != null) {
             String radomCommentId = UUID.randomUUID().toString();
             comment.setCommentId(radomCommentId);

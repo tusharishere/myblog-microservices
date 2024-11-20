@@ -43,7 +43,7 @@ public class PostService {
     public PostDto getAllCommentsForParticularPost(String postId) {
 
         Post post = postRepository.findById(String.valueOf(postId)).get();
-        ArrayList comments = restTemplate.getRestTemplate().getForObject("http://localhost:8082/api/v1/comments/" + postId, ArrayList.class);
+        ArrayList comments = restTemplate.getRestTemplate().getForObject("http://COMMENT-SERVICE/api/v1/comments/" + postId, ArrayList.class);
 
         PostDto dto = new PostDto();
         dto.setId(post.getId());

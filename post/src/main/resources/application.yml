@@ -1,6 +1,7 @@
 spring:
   application:
-    name:Post-SERVICE
+       name:
+          POST-SERVICE
   datasource:
     url: jdbc:mysql://localhost:3306/postdb
     username: root

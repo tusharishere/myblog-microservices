@@ -1,6 +1,7 @@
 spring:
   application:
-    name:Comment-SERVICE
+    name:
+      COMMENT-SERVICE
   datasource:
     url: jdbc:mysql://localhost:3306/commentsdb
     username: root
